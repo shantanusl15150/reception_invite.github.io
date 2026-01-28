@@ -1,4 +1,4 @@
-const targetDate = new Date("2026-02-12T23:30:00+05:30");
+const targetDate = new Date("2026-02-13T19:00:00+05:30");
 
 const timeEls = {
   days: document.getElementById("days"),
@@ -473,4 +473,3 @@ setInterval(updateCountdown, 1000);
 initReveal();
 initParallax();
 initAutoPlay();
-initScratchCard();
