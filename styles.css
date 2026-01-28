@@ -509,6 +509,12 @@ main {
   min-height: 500px;
 }
 
+.scratch-card--reception {
+  height: auto;
+  min-height: 220px;
+  max-width: 400px;
+}
+
 .scratch-reveal {
   position: absolute;
   inset: 0;
@@ -528,6 +534,23 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.scratch-card--reception .scratch-reveal {
+  position: relative;
+  padding: 2rem;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scratch-card--reception .scratch-text {
+  padding: 1.5rem;
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
 }
 
 .scratch-card--schedule .scratch-reveal::before {
