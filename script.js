@@ -473,3 +473,4 @@ setInterval(updateCountdown, 1000);
 initReveal();
 initParallax();
 initAutoPlay();
+initScratchCard();
